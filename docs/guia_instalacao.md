@@ -194,13 +194,13 @@ if torch.cuda.is_available():
 # Crie configuração de modelos
 cat > config/modelos.json << 'EOF'
 {
-  "gemma-2b-concierge": {
-    "nome": "gemma-2b-concierge",
+  "gemma-2b-recepcionista": {
+    "nome": "gemma-2b-recepcionista",
     "caminho": "models/gemma-2b-it-quantized",
     "tipo_modelo": "llm",
     "memoria_necessaria_mb": 2048.0,
     "quantizacao": "awq",
-    "especialidade": "concierge",
+    "especialidade": "recepcionista",
     "versao": "1.0",
     "prioridade": 8,
     "dependencias": [],

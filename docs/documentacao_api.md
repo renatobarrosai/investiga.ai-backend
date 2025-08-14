@@ -81,14 +81,14 @@ curl -X POST "http://localhost:8000/api/verify" \
 **Resposta**:
 ```json
 {
-  "agentes_carregados": ["concierge", "classificador", "filtro_seguranca", "deconstrutor"],
+  "agentes_carregados": ["recepcionista", "classificador", "filtro_seguranca", "deconstrutor"],
   "circuit_breakers": {},
   "cache_stats": {
     "entradas_cache": 42,
     "threshold_similaridade": 0.8
   },
   "agentes_disponiveis": {
-    "concierge": true,
+    "recepcionista": true,
     "classificador": true,
     "filtro_seguranca": true,
     "deconstrutor": true
@@ -156,7 +156,7 @@ curl -X POST "http://localhost:8000/api/verify" \
     "pipeline_used": "completo_com_sintese"
   },
   "stages_completed": [
-    "concierge",
+    "recepcionista",
     "classificador", 
     "seguranca",
     "deconstrutor",
@@ -242,7 +242,7 @@ const ws = new WebSocket('ws://localhost:8000/ws/meu-client-id');
 ```json
 {
   "type": "progress",
-  "station": "concierge",
+  "station": "recepcionista",
   "description": "Organizando informações..."
 }
 ```
@@ -272,7 +272,7 @@ const ws = new WebSocket('ws://localhost:8000/ws/meu-client-id');
 | Estação | Descrição |
 |---------|-----------|
 | `upload` | Processando upload de arquivo |
-| `concierge` | Organizando informações |
+| `recepcionista` | Organizando informações |
 | `classificador` | Analisando tipo de conteúdo |
 | `seguranca` | Verificando segurança |
 | `deconstrutor` | Extraindo alegações |

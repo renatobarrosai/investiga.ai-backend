@@ -46,7 +46,7 @@ O **Investiga.AI** implementa uma arquitetura inovadora baseada no conceito de *
 
 ```mermaid
 graph TD
-    A[📥 Entrada Bruta] --> B[🛎️ Concierge]
+    A[📥 Entrada Bruta] --> B[🛎️ Recepcionista]
     B --> C[🏷️ Classificador]
     C --> D{🔒 Seguro?}
     D -->|❌ Não| E[🚫 Bloqueio]
@@ -88,7 +88,7 @@ graph LR
 
 ## 🤖 Agentes Especializados
 
-### 1. 🛎️ Concierge (Recepcionista)
+### 1. 🛎️ Recepcionista (Recepcionista)
 **Responsabilidade**: Estruturação e organização da entrada
 
 ```python
@@ -247,7 +247,7 @@ graph TB
 
 ```mermaid
 graph LR
-    A[Concierge] --> B[Classificador]
+    A[Recepcionista] --> B[Classificador]
     B --> C[Filtro Segurança]
     C --> D[Deconstrutor]
     D --> E[Cache Semântico]
@@ -290,7 +290,7 @@ graph TB
 ```mermaid
 stateDiagram-v2
     [*] --> Recebido
-    Recebido --> Estruturado: Concierge
+    Recebido --> Estruturado: Recepcionista
     Estruturado --> Classificado: Classificador
     Classificado --> Verificado: Filtro Segurança
     Verificado --> Bloqueado: ❌ Ameaça

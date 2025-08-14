@@ -44,7 +44,7 @@ O **Investiga.AI** é um sistema avançado de verificação automatizada de fato
 
 ```mermaid
 graph LR
-    A[📥 Entrada] --> B[🛎️ Concierge]
+    A[📥 Entrada] --> B[🛎️ Recepcionista]
     B --> C[🏷️ Classificador]
     C --> D[🔒 Filtro Segurança]
     D --> E[🔧 Deconstrutor]
@@ -55,7 +55,7 @@ graph LR
 
 ### Pipeline de 7 Etapas
 
-1. **🛎️ Concierge**: Estrutura e organiza a entrada
+1. **🛎️ Recepcionista**: Estrutura e organiza a entrada
 2. **🏷️ Classificador**: Identifica tipo e modalidade do conteúdo
 3. **🔒 Filtro Segurança**: Detecta URLs maliciosos e conteúdo perigoso
 4. **🔧 Deconstrutor**: Extrai alegações específicas e verificáveis

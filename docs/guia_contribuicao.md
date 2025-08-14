@@ -322,7 +322,7 @@ Closes #123
 #### 🧠 Agentes de IA
 ```bash
 # Localização: src/agentes/
-- Concierge (estruturação)
+- Recepcionista (estruturação)
 - Classificador (multimodal)  
 - Filtro Segurança (detecção ameaças)
 - Deconstrutor (extração alegações)
