@@ -1,7 +1,6 @@
 # Mock simplificado para metricas_gpu
 import logging
 import time
-from typing import Any, Dict, List, Optional
 from dataclasses import dataclass
 
 class MockClass:

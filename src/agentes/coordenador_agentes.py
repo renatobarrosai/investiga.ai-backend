@@ -2,7 +2,7 @@
 import time
 import asyncio
 import logging
-from typing import Dict, Any, Optional, List, Callable, Union
+from typing import Dict, Any, Optional, Callable
 from fastapi import UploadFile
 
 try:

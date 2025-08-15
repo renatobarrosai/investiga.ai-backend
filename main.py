@@ -3,9 +3,7 @@ from fastapi import FastAPI, UploadFile, File, WebSocket, WebSocketDisconnect, H
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
-import asyncio
 import json
-import logging
 
 # Importa o coordenador já modificado
 from src.agentes.coordenador_agentes import CoordenadorAgentes

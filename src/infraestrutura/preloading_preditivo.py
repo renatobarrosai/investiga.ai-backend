@@ -1,8 +1,5 @@
 # Mock simplificado para preloading_preditivo
 import logging
-import time
-from typing import Any, Dict, List, Optional
-from dataclasses import dataclass
 
 class MockClass:
     def __init__(self, *args, **kwargs):

@@ -1,7 +1,6 @@
 # src/config/configuracoes.py
 import os
 from dataclasses import dataclass
-from typing import Dict, Any
 
 @dataclass
 class ConfiguracaoGPU:

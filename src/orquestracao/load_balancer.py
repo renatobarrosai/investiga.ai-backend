@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import time
-from typing import Dict, Optional, Any, List
+from typing import Dict, Optional, Any
 from dataclasses import dataclass
 from collections import deque
 

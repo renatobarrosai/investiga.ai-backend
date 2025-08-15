@@ -1,8 +1,5 @@
 # Mock simplificado para quantizacao_awq
 import logging
-import time
-from typing import Any, Dict, List, Optional
-from dataclasses import dataclass
 
 class MockClass:
     def __init__(self, *args, **kwargs):
@@ -15,8 +12,6 @@ class MockClass:
         pass
 
 # Classes específicas por arquivo
-class QuantizadorAWQ(MockClass): pass
-
 class QuantizadorAWQ(MockClass):
     def __init__(self, diretorio_base="models"):
         super().__init__()

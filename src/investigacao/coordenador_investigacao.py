@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from typing import Dict, List, Any
+from typing import Dict, Any
 from .gerador_estrategias import GeradorEstrategias
 from .executor_buscas import ExecutorBuscas
 from .avaliador_credibilidade import AvaliadorCredibilidade

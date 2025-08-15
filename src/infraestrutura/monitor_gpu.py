@@ -1,5 +1,4 @@
 # src/infraestrutura/monitor_gpu.py
-import psutil
 import GPUtil
 import time
 import logging

@@ -1,8 +1,8 @@
 import asyncio
 import logging
 from typing import Dict, List, Any
-from .sintetizador import SintetizadorCompleto, ConclusaoSintese
-from .apresentador import ApresentadorResultados, RespostaFormatada
+from .sintetizador import SintetizadorCompleto
+from .apresentador import ApresentadorResultados
 
 class CoordenadorSintese:
     """

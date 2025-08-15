@@ -6,7 +6,7 @@ import uuid
 from dataclasses import dataclass, field
 from enum import Enum
 from typing import Dict, List, Optional, Any, Callable
-from queue import PriorityQueue
+from queue import PriorityQueue, Empty
 from threading import Lock
 
 class StatusRequisicao(Enum):
@@ -100,7 +100,7 @@ class GerenciadorFilas:
             
         try:
             requisicao = self.fila_pendentes.get_nowait()
-        except:
+        except Empty:
             return None
             
         with self.lock_operacoes:

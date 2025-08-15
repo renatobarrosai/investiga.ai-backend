@@ -2,7 +2,7 @@
 import json
 import logging
 from dataclasses import dataclass, asdict
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional
 from enum import Enum
 from pathlib import Path
 

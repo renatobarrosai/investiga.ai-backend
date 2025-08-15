@@ -1,8 +1,7 @@
 # Mock simplificado para pool_threads_modelos
 import logging
-import time
-from typing import Any, Dict, List, Optional
 from dataclasses import dataclass
+from enum import Enum
 
 class MockClass:
     def __init__(self, *args, **kwargs):
@@ -15,8 +14,6 @@ class MockClass:
         pass
 
 # Classes específicas por arquivo
-from enum import Enum
-
 class TipoOperacao(Enum):
     CARREGAR = "carregar"
     INFERENCIA = "inferencia"

@@ -1,6 +1,6 @@
 # src/infraestrutura/coordenador_quantizacao.py
 import logging
-from typing import Dict, List, Optional
+from typing import Optional
 from .quantizacao_gptq import QuantizadorGPTQ
 from .quantizacao_awq import QuantizadorAWQ
 from .benchmark_quantizacao import BenchmarkQuantizacao

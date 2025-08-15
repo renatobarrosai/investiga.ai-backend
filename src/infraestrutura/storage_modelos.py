@@ -1,8 +1,5 @@
 # Mock simplificado para storage_modelos
 import logging
-import time
-from typing import Any, Dict, List, Optional
-from dataclasses import dataclass
 
 class MockClass:
     def __init__(self, *args, **kwargs):
@@ -15,8 +12,6 @@ class MockClass:
         pass
 
 # Classes específicas por arquivo
-class GerenciadorStorageModelos(MockClass): pass
-
 class GerenciadorStorageModelos(MockClass):
     def __init__(self, diretorio_base="models"):
         super().__init__()

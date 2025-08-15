@@ -1,6 +1,6 @@
 # Criar websocket_manager.py na raiz do check_cl
 from fastapi import WebSocket
-from typing import Dict, List
+from typing import Dict
 import json
 
 class WebSocketManager:

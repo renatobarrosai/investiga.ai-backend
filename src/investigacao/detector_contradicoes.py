@@ -1,5 +1,5 @@
 import logging
-from typing import List, Optional
+from typing import List
 from dataclasses import dataclass
 from .executor_buscas import ResultadoBusca # Importa para anotação de tipo
 
