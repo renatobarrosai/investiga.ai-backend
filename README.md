@@ -1,18 +1,23 @@
-\<div align="center"\>
-\<img src="[https://i.imgur.com/8z2hE6q.png](https://www.google.com/search?q=https://i.imgur.com/8z2hE6q.png)" alt="Banner do Investiga.AI com uma imagem estilizada de uma lupa digital e o texto 'Combatendo a Desinformação com Inteligência Artificial'"\>
-\</div\>
+<div align="center">
+  <img src="https://i.imgur.com/8z2hE6q.png" alt="Banner do Investiga.AI com uma imagem estilizada de uma lupa digital e o texto 'Combatendo a Desinformação com Inteligência Artificial'">
+</div>
 
-\<div align="center"\>
+<div align="center">
 
 # **Investiga.AI: Sistema Automatizado de Verificação de Fatos**
 
-\</div\>
+</div>
 
-\<div align="center"\>
+<div align="center">
 
-\</div\>
+![Badge](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Badge](https://img.shields.io/badge/Acesso-100%25%20Gratuito-brightgreen?style=for-the-badge)
+![Badge](https://img.shields.io/badge/Plataforma-Multiplataforma-blue?style=for-the-badge)
+![Badge](https://img.shields.io/badge/Tecnologia-IA%20Multi--Agente-9cf?style=for-the-badge)
 
------
+</div>
+
+---
 
 ### 🚨 O Problema da Desinformação
 
@@ -22,7 +27,7 @@ A desinformação se espalha exponencialmente mais rápido que fact-checkers hum
 
 O **Investiga.AI** é um sistema automatizado que emprega múltiplos agentes especializados em uma arquitetura em cascata, avançando o conhecimento apresentado em pesquisas do Google Cloud AI Research. O sistema analisa alegações em diversos formatos (texto, imagem, áudio, vídeo), investiga evidências na web e gera vereditos com explicações e fontes.
 
------
+---
 
 ### ⚙️ Funcionamento em 7 Etapas
 
@@ -34,27 +39,27 @@ O **Investiga.AI** é um sistema automatizado que emprega múltiplos agentes esp
 6.  **⚖️ Sintetizador:** Analisa as evidências e gera uma conclusão fundamentada.
 7.  **📢 Apresentador:** Transforma a análise em uma resposta clara com veredito.
 
------
+---
 
 ### ✨ Diferenciais Técnicos
 
-  - **🤖 Arquitetura multi-agente especializada:** IA otimizada por função específica.
-  - **🖼️ Processamento multimodal:** Suporte completo a texto, imagem, áudio e vídeo.
-  - **🔍 Investigação web ativa:** Busca evidências em tempo real.
-  - **⚡ Circuit breakers inteligentes:** Interrompe o processamento quando detecta problemas.
-  - \*\* Transparency Explicabilidade completa:\*\* Fornece fontes, raciocínio e trilha de auditoria.
-  - **☁️ Escalabilidade real-time:** Processa milhares de verificações simultaneamente.
+-   **🤖 Arquitetura multi-agente especializada:** IA otimizada por função específica.
+-   **🖼️ Processamento multimodal:** Suporte completo a texto, imagem, áudio e vídeo.
+-   **🔍 Investigação web ativa:** Busca evidências em tempo real.
+-   **⚡ Circuit breakers inteligentes:** Interrompe o processamento quando detecta problemas.
+-   **TRANSPARENCY Explicabilidade completa:** Fornece fontes, raciocínio e trilha de auditoria.
+-   **☁️ Escalabilidade real-time:** Processa milhares de verificações simultaneamente.
 
------
+---
 
 ### 🎯 Áreas de Aplicação Prioritárias
 
-1.  **📰 Mídia/Jornalismo:** Verificação automática e fact-checking em tempo real.
-2.  **🗳️ Eleições:** Combate à desinformação eleitoral e verificação de dados.
-3.  **⚕️ Saúde:** Detecção de fake news médicas e informações sobre surtos.
-4.  **🌍 Segurança Nacional:** Identificação de desinformação estrangeira e teorias conspiratórias.
+-   **📰 Mídia/Jornalismo:** Verificação automática e fact-checking em tempo real.
+-   **🗳️ Eleições:** Combate à desinformação eleitoral e verificação de dados.
+-   **⚕️ Saúde:** Detecção de fake news médicas e informações sobre surtos.
+-   **🌍 Segurança Nacional:** Identificação de desinformação estrangeira e teorias conspiratórias.
 
------
+---
 
 ### 🚀 Disponibilidade
 
