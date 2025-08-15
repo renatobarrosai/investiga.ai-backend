@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 import json
+from src.utils.websocket_manager import WebSocketManager
 
 # Importa o coordenador já modificado
 from src.agentes.coordenador_agentes import CoordenadorAgentes

@@ -519,9 +519,7 @@ class CoordenadorAgentes:
         resultado_basico = self.processar_entrada_completa(conteudo, callback=callback)
         
         # Gera uma conclusão simples baseada nos resultados iniciais
-        seguranca = resultado_basico.get('seguranca')
-        seguro = getattr(seguranca, 'seguro', True) if seguranca else True
-        if seguro:
+        if resultado_basico.get('seguranca', {}).get('seguro', True):
             if resultado_basico.get('cache_hit'):
                 veredicto = "INFORMACAO_CONHECIDA"
             else:
